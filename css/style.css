@@ -1,0 +1,123 @@
+body {
+  font-family: 'Chakra Petch', sans-serif;
+  background: #0b340b;
+  margin-top: 120px;
+  height: 8000px;
+}
+
+main {
+  color: #07f80a;
+}
+
+button {
+  font-family: 'Courier New', Courier, monospace;
+}
+
+.d-block {
+  display: block;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.mt-80 {
+  margin-top: 80px;
+}
+
+.mt-20 {
+  margin-top: 20px;
+}
+
+.mb-20 {
+  margin-bottom: 20px;
+}
+
+.header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #333;
+  position: fixed;
+  z-index: 10;
+  top: 0;
+  min-width: 100%;
+  height: 80px;
+  margin-bottom: 80px;
+  box-shadow: 0 5px 5px 0 rgba(0, 0, 0, .5); 
+}
+
+.header h1 {
+  padding: 20px 0;
+  color: #07f80a;
+  font-size: 48px;
+  font-weight: 700;
+  letter-spacing: 5px;
+}
+
+.mission-title, .mission-subTitle {
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+.mission-title {
+  font-size: 32px;
+}
+
+.mission-subTitle {
+  font-size: 24px;
+}
+
+p {
+  margin-bottom: 20px;
+  line-height: 1.5;
+}
+
+.btn {
+  background: #333;
+  color: #07f80a;
+  box-shadow: 0 0 5px 0 #333;
+  padding: 20px;
+  margin-right: 20px;
+  border: none;
+  cursor: pointer;
+  transition: .2s ease-out;
+}
+
+.btn:hover {
+  background: #07f80a;
+  color: #0b340b;
+}
+
+.btn:focus {
+  outline: none;
+}
+
+.p-10 {
+  padding: 10px;
+}
+
+.myClass {
+  background-color: #000;
+  color: blue;
+}
+
+#box {
+  background: #333;
+  color: #fff;
+  width: 500px;
+  height: 90px;
+  padding: 40px;
+  text-align: center;
+}
+
+#box-2 {
+  background: #07f80a;
+  width: 100px;
+  height: 100px;
+  position: relative;
+}
+
+
+
